@@ -1,0 +1,276 @@
+/*=======TOGGLE CLASSES=======*/
+
+.add_class{
+				box-shadow:1px -1px 5px #C91AA3;
+				background-color: #131726;
+				color: linear-gradient( #C91AA3, #BA56D4);
+}
+.add_class_one{
+				background-color: #333;
+				box-shadow: 0 0 0;
+				color: #fff !important;
+}
+
+.add_class_code{
+				color: #fff;
+}
+
+.add_class_game{
+				text-shadow:2px 2px 20px #C91AA3;
+}
+.add_class_nft{
+				background-color: #11051B;
+				border-top: 1px solid #6a2c57;
+				box-shadow: 0 0 0;
+}
+.add_class_pc{
+				position: relative;
+				box-shadow: 0 0 0;	
+				background-color: #151515;
+}
+.add_default{
+				background-color: #F7F5FF;
+				box-shadow: 1px -2px 25px lightgrey;
+}
+/*=======CODING SECTION=======*/
+
+#coding{
+				background-color: #1E1E1E;
+				font-family: jetbrains;
+}
+#coding h2{
+				color: #CFCEA7 ; 
+}
+#coding p{
+				color: #61B6E2;
+}
+
+.code_intro{
+				background: url('../pics/code.jpg');
+				height: 60%;
+				background-size: cover;
+				background-position: center;
+}
+#backBtn{
+				background-color: lightblue;
+}
+.anime{
+				animation-name: blink;
+				animation-iteration-count: infinite;
+				animation-duration: 1s;
+}
+@keyframes blink {
+				0%{opacity: 0;}
+				50%{opacity: 1;}
+				100%{opacity: 0;}
+}
+
+/*======GAMING SECTION=======*/
+
+#gaming{
+			background-color: #000;
+}
+.game_intro{
+				background-image: linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)), url("../pics/gaming.png");
+				height: 35em;
+				background-size: cover;
+				background-position: center;
+} 
+
+#backBtn1{
+				background: linear-gradient(#C91AA3, #BA56D4);
+				box-shadow: 2px 2px 20px #C91AA3;
+}
+
+#gaming h2{
+				color: #76F1FD;
+				opacity: 0.4;
+				//text-shadow: 1px 1px 5px ;
+}
+.pallets{
+				display: flex;
+				justify-content: space-around;
+}
+.pallets button{
+				width: 33%;
+				border: 2px solid purple;
+				transform:skew(-20deg);
+				position: relative;
+				box-shadow: 1px 1px 5px #C91AA3; 
+				font-weight: bolder;
+				background-color: rgba(112,237,251,0.6);
+				} 
+.game_slide1,.game_slide2,.game_slide3{
+				height: 30em;
+				border-radius: 1rem;
+}
+.game_slide1{
+				background-image:linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)), url("../pics/gta_sa.png");
+				background-size: cover;
+				background-position: center top;
+}
+
+#second{
+				background-image:linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)), url("../pics/ark.jpg");
+				background-size: cover;
+				background-position: center top;
+}
+#shootSec{
+				background-image:linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)), url("../pics/pubg.jpg");
+				background-size: cover;
+				background-position: center top;
+}
+#nfs{
+				background-image:linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)), url("../pics/nfs.png");
+				background-size: cover;
+				background-position: center top;
+}
+
+.game_slide2{
+				background-image: linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)),url("../pics/cod.jpg");
+				background-size: cover;
+				background-position: center;
+}
+.game_slide3{
+				background-image: linear-gradient(rgba(0,0,0,0.1 ), rgba(0,0,0,1)),url("../pics/car.png");
+				background-size: cover;
+				background-position: center;
+}
+
+/*=======POA SECTION=======*/
+
+#poa{
+				background-color: #ffffff;
+}
+.poa_intro{
+				background-image: url("../pics/icon.png");
+				height: 30em;
+				background-size: cover;
+				background-position: center;
+}
+
+#backBtn2{
+				background-color: lightgreen;
+} 
+
+/*=======CRYPTO SECTION=======*/
+
+#crypto{
+				background: linear-gradient(#131625, #53597d, #18182f); 
+}
+.wrapper{
+				background: rgba( 0,0,0,0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 90%;
+margin: 1rem auto;
+}
+.crypto_intro{
+				height: 30em;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+}
+.bit{
+				filter: drop-shadow(5px 2px 25px #000);
+				width: 60%;
+				display: block;
+				margin: auto;
+}
+.coin{
+				width: 20%;
+				aspect-ratio: 1;
+} 
+
+/*=======NFT SECTION=======*/
+
+#nft{
+				background-color: #11051B;
+}
+
+.nft_cards{
+				overflow-x: scroll;
+				display: flex;
+				gap: 1rem;
+				position: relative;
+}
+.nft_cards img{
+				width: 35%;
+				aspect-ratio: 1;
+				border-radius: 0.5rem;
+				position: relative;
+}
+nft_cards::after{
+    content: "";
+				width: 100%;
+				height: 100%;
+				top: 0 ;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: red;
+				position: absolute;
+}
+
+/*=======PC SECTION=======*/
+
+#pc{
+				background: linear-gradient(to top left, #151515, #222835);
+}
+.pc-head{
+				font-size: 5rem;
+				line-height: 90%;
+}
+
+.rig{
+				width: 70%;
+				filter: drop-shadow(0 2rem 3rem #4346c9);
+				display: block;
+				margin: auto;
+}
+#greenRig{
+				filter: drop-shadow(2rem 5px 3rem #5a23);
+}
+
+/*====User*/
+
+#userInfo,#sub{
+				background: linear-gradient(to top right, #0A0D16, #0A0D16, #070D26);
+}
+.fa-angle-left{
+				font-size: 150%;
+}
+.my-card{
+				position: relative;
+				border-radius: 1rem;
+				box-shadow: 1px 1px 70px #000f53;
+}
+.card_img{
+				background: url('../pics/bg.png');
+				background-size: cover;
+				background-position: center;
+				height: 10em;
+				border-top-right-radius: 1rem;
+				border-top-left-radius: 1rem;
+}
+.my-img{
+				width: 40%;
+				aspect-ratio: 1;
+				position: absolute;
+				top: 15%;
+				left: 10%;
+}
+.card_content{
+				background-color: #000d4a;
+				border-bottom-right-radius: 1rem;
+				border-bottom-left-radius: 1rem;
+				margin-top: -0.5rem;
+				padding-bottom: 12.5%;
+}
+.card_content p{
+				padding-top: 25%;
+				
+}

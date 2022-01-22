@@ -1,0 +1,212 @@
+:root{
+				
+}
+@font-face  {
+				font-family: 'jetbrains';
+				src: url('../font/jbm.ttf');
+}
+html, body{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-size: 90%;
+				position: relative;
+				overflow-x: hidden;
+				line-height: 1.5;
+				height: 100vh;			
+}
+.cover{
+				height: 100%;
+				background-image: linear-gradient(rgba(0,0,0,0.5 ), rgba(0,0,0,0.5 )), url("../pics/cover.jpg");
+				background-size: cover;
+				background-position: center;
+				position: static;
+				bottom: 0;
+				overflow-y: hidden;
+}
+.intro{
+				background: #fff;
+				height: 60%;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				border-top-right-radius: 12.5%;
+				border-top-left-radius: 12.5%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;	
+				overflow-y: hidden;
+}
+
+.logo{
+				width: 50%;
+				display: block;
+				margin:2rem auto;
+}
+.hero_text{
+				width: 70%;
+				margin: auto;
+}
+.upper{
+				text-transform: uppercase;
+}
+.more_btn{
+				display: block;
+				width: 40%;
+				margin: auto;
+				box-shadow: 1px -10px 40px lightgrey;
+}
+.navbar{
+				background-color: #F7F5FF;
+				box-shadow: 1px -2px 25px lightgrey;
+}
+.bottom-nav{		
+				border-top-left-radius: 0.5em;
+				border-top-right-radius: 0.5em;
+				padding: 1rem;
+				position: sticky;
+				bottom: 0;
+				z-index: 3;				
+				transition: 0.2s all;
+}
+.navbar-tabs{
+				display: flex;
+				padding: 0;
+				margin: 0;		
+				width: 80%;
+				margin: auto;
+				justify-content: space-between;
+}
+li{
+				list-style-type:none;
+}
+.navbar-tabs li{
+				font-size: 180%;
+}
+
+.tabs{
+				color: #C91AA3;
+				drop-shadow: 1px 1px 5px #C91AA3;		
+} 
+.fa-plus{
+				color: #6601F9;
+				font-size: 150%;
+}
+.cover{
+				overflow: hidden;
+}
+.main_content{
+				max-height: 100%;
+				min-width: 100%;
+				background-color: #F8F7FC;
+				position: absolute;
+				top: 0;
+				transform: translateX(100%);
+				transition: 0.2s all;
+				overflow-y: scroll;
+				overflow-x: hidden;
+}
+.navbar-brand{
+				width: 25%;
+}
+.link_card{
+				width: 70%;
+				margin:2em auto;
+				
+}
+.img_area{
+				height: 12em;
+				border-radius: 1em;
+}
+.img_one{
+				background: url('../pics/code.png');
+				background-size: cover;
+				background-position: center;
+}
+.img_two{
+				background: url('../pics/andprogramming.png');
+				background-size: cover;
+				background-position: center;
+}
+.img_three{
+				background: url('../pics/androgaming.png');
+				background-size: cover;
+				background-position: center;
+}
+.img_four{
+				background: url('../pics/crypto.png');
+				background-size: cover;
+			 background-position:  ;
+}
+.img_five{
+				background: url('../pics/nft.jpg');
+				background-size: cover;
+			 background-position: center center;
+}
+.img_six{
+				background: url('../pics/rig.png');
+				background-size: cover;
+			 background-position: center center;
+}
+.img_sev{
+				background: url('../pics/web3.0.png');
+				background-size: cover;
+			 background-position: center center;
+}
+.coding{
+				width: 100%;
+				height: 100%;							
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				top: 0;
+				right: 0;
+				margin: auto;
+				transform: translateX(100%);
+				transition: transform 0.2s;
+				z-index: 2;
+				overflow-y: hidden;
+				padding-bottom: 5.5rem;
+}
+.coding p{
+				width: 85%;
+				margin:1em auto;
+}
+#backBtn, #backBtn1, #backBtn2,#backBtn3, #backBtn4,#backBtn5, #backBtn6, #backBtn7{
+				position: sticky;
+				color: #fff;
+				font-size: 150%;
+				aspect-ratio: 1;
+				border-radius: 50%;
+				top: 5%;
+				left: 1%;
+}
+.fa-star:not(:last-child){
+				color: #dc8825;
+}
+.form-group{
+				width: 70%;
+				margin-inline: auto;
+}
+.form_user{
+				display: block;
+				font-size: 10rem;
+				aspect-ratio: 1;
+				margin: auto;
+				color: #fff;
+}
+label{
+				font-size: 140%;
+				color: #fff;
+}
+.social_media{
+				width: 100%;
+			text-align: center;
+				font-size: 230%;
+				letter-spacing: 1rem;
+				
+}
+footer{
+				margin-bottom: 20%;
+}
